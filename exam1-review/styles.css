@@ -1,0 +1,59 @@
+:root{
+    --Primary-Color: rgb(52, 52, 198);
+    --default-border-radius: 1em;
+}
+.site-nav{
+    background-color: var(--Primary-Color);
+    margin: 0;
+    padding: 1em;
+}
+
+.site-nav img {
+    width: 10em;
+    display:block;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.Buttons {
+    background-color: white;
+    margin: .5em;
+    border-radius: var(--default-border-radius);
+    padding: .2em;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.Intro-section{
+    display: inline-block;
+
+}
+
+.Intro-section article{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+    font-size:smaller;
+}
+
+.Intro-section article img {
+    width:100%;
+}
+
+.cards figure{
+    display: inline-block;
+    width: 30%;
+    border-style: solid;
+    border-width: 1px;
+    margin: .2em;
+}
+.cards img {
+    width: 100%;
+}
